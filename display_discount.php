@@ -36,6 +36,7 @@
         <span><?php echo $list_price_formatted; ?></span><br>
 
         <label>Standard Discount:</label>
+	<b>10</b>z
         <span><?php echo $discount_percent_formatted; ?></span><br>
 	<b>10</b>
 
