@@ -28,22 +28,19 @@
     <main>
         <h1>Product Discount Calculator</h1>
 
-        <label>Product Description:</label>
+        <label><b>Product Description:</b></label>
         <span><?php echo $product_description_escaped; ?></span><br>
-	<b>Guitar</b>
-
-        <label>List Price:</label>
+	
+        <label><b>List Price:</b></label>
         <span><?php echo $list_price_formatted; ?></span><br>
 
-        <label>Standard Discount:</label>
-	<b>10</b>z
+        <label><b>Standard Discount:</b></label>
         <span><?php echo $discount_percent_formatted; ?></span><br>
-	<b>10</b>
 
-        <label>Discount Amount:</label>
+        <label><b>Discount Amount:</b></label>
         <span><?php echo $discount_formatted; ?></span><br>
 
-        <label>Discount Price:</label>
+        <label><b>Discount Price:</b></label>
         <span><?php echo $discount_price_formatted; ?></span><br>
     </main>
 </body>
